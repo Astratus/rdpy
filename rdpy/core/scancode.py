@@ -22,6 +22,20 @@ Basic virtual scancode mapping
 """
 
 _SCANCODE_QWERTY_ = {
+    0x02 : "1",
+    0x03 : "2",
+    0x04 : "3",
+    0x05 : "4",
+    0x06 : "5",
+    0x07 : "6",
+    0x08 : "7",
+    0x09 : "8",
+    0x0a : "9",
+    0x0b : "0",
+    0x0c : "-",
+    0x0d : "=",
+    0x0e : "Backspace",
+    0x0f : "Tab"
     0x10 : "q",
     0x11 : "w",
     0x12 : "e",
@@ -41,13 +55,30 @@ _SCANCODE_QWERTY_ = {
     0x24 : "j",
     0x25 : "k",
     0x26 : "l",
+    0x27 : ";",
+    0x28 : "'",
+    0x2a : "Left Shift",
     0x2c : "z",
     0x2d : "x",
     0x2e : "c",
     0x2f : "v",
     0x30 : "b",
     0x31 : "n",
-    0x32 : "m"
+    0x32 : "m",
+    0x33 : ",",
+    0x34 : ".",
+    0x35 : "/",
+    0x36 : "Right Shift",
+    0x39 : "Spacebar",
+    0x4f : "Keypad 1",
+    0x50 : "keypad 2",
+    0x51 : "keypad 3",
+    0x4b : "keypad 4",
+    0x4c : "keypad 5",
+    0x4d : "keypad 6",
+    0x47 : "keypad 7",
+    0x48 : "keypad 8",
+    0x49 : "keypad 9"
 }
         
 def scancodeToChar(code):
